@@ -1,0 +1,14 @@
+.logo {
+  background-color: var(--primary-color);
+  height: 9rem;
+  width: auto;
+  aspect-ratio: 1/1;
+  display: inline-flex;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  pointer-events: auto;
+}
