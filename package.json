@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "@ionic/react": "^7.5.6",
+    "@turf/turf": "^6.5.0",
     "animejs": "^3.2.1",
     "framer-motion": "^10.16.5",
+    "haversine-distance": "^1.2.1",
     "ionicons": "^7.2.1",
     "leaflet": "^1.9.4",
     "leaflet-draw": "^1.0.4",

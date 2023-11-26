@@ -6,7 +6,7 @@ import { logoLinkedin, logoGithub } from "ionicons/icons";
 
 const AboutUsCard = ({ personName, imageUrl, description, linkedin, github }) => {
   return (
-    <div className={`${classes.card}`}>
+    <div className={`${classes.card} glassy`}>
       <div className={`${classes.cardImg}`}>
         <img
           src={`${imageUrl}`}

@@ -1,12 +1,11 @@
 .thumbContainer {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../../public/assets/images/Riyadh-arial-city-About-Us.png");
-  filter: blur();
   min-height: 38rem;
-  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,9 +18,8 @@
 }
 
 .cards {
-  height: fit-content;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3rem;
 }

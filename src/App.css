@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
 .row {
   width: 100%;
   max-width: 144rem;
-  padding: 6rem 4rem;
+  padding: 6rem 0rem;
 }
 
 .deselector {
@@ -23,7 +23,7 @@
 
 .title-w-bg {
   font-size: 8rem;
-  color: var(--primary-color);
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -53,4 +53,12 @@
   background: var(--primary-color);
   transform-origin: bottom;
   z-index: 1000;
+}
+
+.glassy {
+  background: rgba(255, 255, 255, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.4px);
+  -webkit-backdrop-filter: blur(6.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }

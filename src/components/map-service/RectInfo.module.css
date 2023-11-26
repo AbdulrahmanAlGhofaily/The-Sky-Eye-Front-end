@@ -1,0 +1,18 @@
+.coordinate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0;
+  gap: 2rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.lineSeparator {
+  width: 100%;
+  margin: 1rem 0;
+  height: 1px;
+  background-color: rgba(204, 204, 204, 0.5);
+}

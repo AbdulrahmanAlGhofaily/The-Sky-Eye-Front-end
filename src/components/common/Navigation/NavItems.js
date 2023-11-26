@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import classes from "./NavItems.module.css";
 
 const NavItems = () => {
   const [navOpen, setNavOpen] = useState(false);
+  const location = useLocation().pathname.slice(1).toUpperCase();
 
   const toggleNav = () => {
     setNavOpen(!navOpen);
@@ -11,7 +12,7 @@ const NavItems = () => {
 
   return (
     <div
-      className={`${classes.navItems} ${navOpen ? classes.opened : ""}`}
+      className={`${classes.navItems} ${navOpen ? classes.opened : ""} glassy`}
       onClick={toggleNav}
     >
       <div className={`${classes.navOperation}`}>
@@ -20,8 +21,10 @@ const NavItems = () => {
           <span className={`${classes.line}`}></span>
           <span className={`${classes.line}`}></span>
         </div>
-        <div className={`${classes.pageIndicator}`}>
-          <h3 className={`${classes.pageName}`}>ABOUT US</h3>
+        <div className={`${classes.pageIndicator} glassy`}>
+          <h3 className={`${classes.pageName}`}>
+            {location === "" ? "HOME" : location === "ABOUTUS" ? "ABOUT US" : location}
+          </h3>
         </div>
       </div>
       <div className={`${classes.navLinks} ${navOpen ? classes.navLinksOpened : ""}`}>
