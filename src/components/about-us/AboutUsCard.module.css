@@ -72,6 +72,17 @@
   font-size: 2.4rem;
 }
 
+.lIcon::before {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  content: "";
+  width: 75%;
+  height: 75%;
+  background: #fff;
+  z-index: -1;
+}
+
 .gIcon {
   font-size: 2.4rem;
 }
