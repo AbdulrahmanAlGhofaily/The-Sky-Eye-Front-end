@@ -59,6 +59,10 @@
   gap: 0.6rem;
 }
 
+.socialMediaItem:not(:last-child) {
+  margin-bottom: 6px;
+}
+
 .socialMediaItem:hover {
   opacity: 0.8;
 }

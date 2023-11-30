@@ -9,7 +9,7 @@ const MapInfo = ({ coords, areaInfo }) => {
     if (submitted) {
       async function postData() {
         try {
-          const res = await fetch("", {
+          const res = await fetch("http://127.0.0.1:8000/apiHandler/coordinates/", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -17,6 +17,7 @@ const MapInfo = ({ coords, areaInfo }) => {
             body: JSON.stringify(coords),
           });
 
+          console.log(res);
           const data = await res.json();
           return data;
         } catch (err) {

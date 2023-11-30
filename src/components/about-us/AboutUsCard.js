@@ -21,6 +21,8 @@ const AboutUsCard = ({ personName, imageUrl, description, linkedin, github }) =>
           <a
             className={`${classes.socialMediaItem}`}
             href={linkedin}
+            target="_blank"
+            rel="noreferrer"
           >
             <IonIcon
               className={`${classes.lIcon}`}
@@ -31,6 +33,8 @@ const AboutUsCard = ({ personName, imageUrl, description, linkedin, github }) =>
           <a
             className={`${classes.socialMediaItem}`}
             href={github}
+            target="_blank"
+            rel="noreferrer"
           >
             <IonIcon
               className={`${classes.gIcon}`}
