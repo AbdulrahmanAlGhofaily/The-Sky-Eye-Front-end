@@ -9,6 +9,7 @@ const MapInfo = ({ coords, areaInfo }) => {
     if (submitted) {
       async function postData() {
         try {
+          console.log(coords);
           const res = await fetch("http://127.0.0.1:8000/apiHandler/coordinates/", {
             method: "POST",
             headers: {

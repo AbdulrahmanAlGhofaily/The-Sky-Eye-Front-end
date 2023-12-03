@@ -23,8 +23,11 @@
 
 .title-w-bg {
   font-size: 8rem;
-  color: #fff;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .slide-in {

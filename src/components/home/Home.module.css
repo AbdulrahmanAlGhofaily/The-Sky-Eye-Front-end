@@ -11,7 +11,6 @@
 }
 
 .headerText {
-  color: var(--primary-color);
   text-transform: uppercase;
   text-align: center;
 }
