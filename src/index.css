@@ -45,3 +45,15 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #102c57;
 }
+
+@media (max-width: 1490px) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 50%;
+  }
+}

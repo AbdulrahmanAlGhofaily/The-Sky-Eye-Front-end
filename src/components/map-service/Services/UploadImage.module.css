@@ -1,0 +1,63 @@
+.uploadCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 80rem;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 0 0 12px 12px;
+  width: 100%;
+}
+
+.uploadBtn {
+  display: none;
+}
+
+.uploadLabel {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.21);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px rgba(255, 255, 255, 0.3) solid;
+  padding: 2rem 0;
+  height: 40rem;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.uploadLabel svg {
+  margin: auto auto;
+  width: 14rem;
+  height: 14rem;
+  fill: #fff;
+}
+
+.uploadLabel:hover {
+  opacity: 0.8;
+}
+
+.uploadLabel img {
+  width: 100%;
+}
+
+.submitBtn {
+  width: 100%;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.submitBtn:hover {
+  opacity: 0.8;
+}

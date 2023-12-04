@@ -17,4 +17,23 @@
 
 .headerText p {
   width: 70rem;
+  max-height: 0rem;
+  overflow: hidden;
+  animation: showText 3s ease-in-out forwards 1.4s;
+}
+
+.lineSeparator {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #fff;
+  margin: 2rem 0;
+}
+
+@keyframes showText {
+  0% {
+    max-height: 0rem;
+  }
+  100% {
+    max-height: 50rem;
+  }
 }

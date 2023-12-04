@@ -7,22 +7,26 @@
   gap: 1.2rem;
   border-radius: 12px;
   padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.card:hover .cardImg img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 .cardImg {
-  height: 25.6rem;
   width: 100%;
-  border-radius: 12px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 24rem;
   overflow: hidden;
 }
 
 .cardImg img {
   width: 100%;
-  aspect-ratio: 1/1;
-  border-radius: 12px;
-  object-position: center;
-  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
 .info {

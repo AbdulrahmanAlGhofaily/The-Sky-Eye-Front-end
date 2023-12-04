@@ -7,13 +7,38 @@
   gap: 4rem;
 }
 
-.mapCont {
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../../public/assets/images/Riyadh-night-time.png");
+/* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../../../public/assets/images/Riyadh-night-time.png"); */
+.serviceCont {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 4rem 0;
+}
+
+.mapService {
+  display: flex;
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+}
+
+.servicesSection {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.thumbContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../public/assets/images/Riyadh-night-time.png");
+  min-height: 38rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

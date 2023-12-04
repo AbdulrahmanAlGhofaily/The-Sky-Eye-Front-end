@@ -8,7 +8,7 @@ import AboutUsCard from "./AboutUsCard";
 const info = [
   {
     name: "Abdulrahman Alghofaily",
-    description: "Fresh Computer Science graduate | Web developer | Data Scientist.",
+    description: "Fresh Computer Science graduate | Web developer | Data Scientist",
     imageUrl: "/assets/images/abdulrahman_r.png",
     linkedin: "https://www.linkedin.com/in/abdulrahman-alghofaily/",
     github: "https://github.com/AbdulrahmanAlGhofaily",
@@ -23,21 +23,21 @@ const info = [
   {
     name: "Azzam Alharbi",
     description: "Enthusiastic Computer Science graduate, with a strong passion in Data Science",
-    imageUrl: "/assets/images/azzam.jpg",
+    imageUrl: "/assets/images/azzam.png",
     linkedin: "https://www.linkedin.com/in/azzam-alharbi-b3b485261",
     github: "https://github.com/azzamalharbi",
   },
   {
     name: "Anfal Alruwaili",
-    description: "Computer Science Graduate.",
+    description: "Computer Science | Administrative | Data scientist",
     imageUrl: "/assets/images/anfal.jpg",
-    linkedin: "https://www.linkedin.com/in/abdulrahman-alghofaily/",
-    github: "https://github.com/AbdulrahmanAlGhofaily",
+    linkedin: "https://www.linkedin.com/in/anfal-husaynia-319991224",
+    github: "https://github.com/anfal7",
   },
   {
     name: "Nawaf Alshaikh",
     description: "Computer Science Graduate | Interest in Data Science and ML Engineering",
-    imageUrl: "/assets/images/abdulrahman_r.png",
+    imageUrl: "/assets/images/nawaf.jpg",
     linkedin: "https://www.linkedin.com/in/nawaf-alshaikh-7a35b11a2",
     github: "https://github.com/nawaf7800/projects",
   },

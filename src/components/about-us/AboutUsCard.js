@@ -11,6 +11,7 @@ const AboutUsCard = ({ personName, imageUrl, description, linkedin, github }) =>
         <img
           src={`${imageUrl}`}
           alt={`${personName}`}
+          className="deselector"
         />
       </div>
 

@@ -6,10 +6,10 @@ import NavItems from "./NavItems";
 
 const Navigation = () => {
   return (
-    <div className={`${classes.navLayout} ${classes.navLayout__sticky}`}>
+    <nav className={`${classes.navLayout} ${classes.navLayout__sticky}`}>
       <Logo />
       <NavItems />
-    </div>
+    </nav>
   );
 };
 

@@ -8,6 +8,7 @@ const Home = () => {
     <>
       <div className={`${classes.header}`}>
         <div className={`${classes.headerText}`}>
+          <div></div>
           <WordChanger
             normalWord={"the sky"}
             words={["eye", "ai"]}
@@ -15,9 +16,10 @@ const Home = () => {
             skipDelay={35}
           />
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, mollitia. Accusantium mollitia asperiores
-            cupiditate quasi aliquam veniam inventore.
+            Explore the intricate tapestry of construction, transformation, and greenery as this intelligent eye
+            unravels the stories etched into every street and skyline.
           </p>
+          <div className={`${classes.lineSeparator}`}></div>
         </div>
       </div>
     </>
