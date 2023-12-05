@@ -23,7 +23,7 @@ const info = [
   {
     name: "Azzam Alharbi",
     description: "Enthusiastic Computer Science graduate, with a strong passion in Data Science",
-    imageUrl: "/assets/images/azzam.png",
+    imageUrl: "/assets/images/azzam.jpg",
     linkedin: "https://www.linkedin.com/in/azzam-alharbi-b3b485261",
     github: "https://github.com/azzamalharbi",
   },
